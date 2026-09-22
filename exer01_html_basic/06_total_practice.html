@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <body>
+            <h1>나의 웹 프로필 페이지</h1>
+            <p>HTML 기본 태그를 활용한 나만의 웹 프로필 페이지입니다.</p>
+        </body>
+    </header>
+
+    <hr>
+
+    <nav>
+        <body>
+            <a href="#intro">소개</a> |
+            <a href="#interest">관심 분야</a> |
+            <a href="#schedule">학습 계획</a> |
+            <a href="#contact">문의하기</a>
+        </body>
+    </nav>
+    <hr>
+    
+    <main>
+        <body>
+            <h2 id="intro"> 1. 자기소개</h2>
+            <h3> 안녕하세요!</h3>
+            <p>저는 <b>웹프로그래밍 강의</b>를 수강하는 컴퓨터소프트웨어전공 22학번 고건입니다.</p>
+            <p>현재 <b>HTML5</b>의 기본 구조와 다양한 태그를 학습 중입니다.</p>
+            <img src="/profile.jpg" width="320", height="320">
+        </body>
+        <hr>
+        <body>
+            <h2 id="interest"> 2. 관심 분야</h2>
+            <h3>관심 있는 기술</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ul>
+            <h3>학습 순서</h3>
+            <ol>
+                <li>HTML 배우기</li>
+                <li>CSS 배우기</li>
+                <li>JavaScript 배우기</li>
+                <li>웹 프로젝트 만들기</li>
+            </ol>
+        </body>
+        <hr>
+        <body>
+            <h2 id="schedule"> 3. 학습 계획</h2>
+            <table border=1>
+                <thead>
+                    <tr>
+                        <td><b>주차</b></td>
+                        <td><b>학습 내용</b></td>
+                        <td><b>상태</b></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1주차</td>
+                        <td>HTML 기본</td>
+                        <td>학습 완료</td>
+                    </tr>
+                    <tr>
+                        <td>2주차</td>
+                        <td>CSS 기본</td>
+                        <td>학습 예정</td>
+                    </tr>
+                    <tr>
+                        <td>3주차</td>
+                        <td>JavaScript 기본</td>
+                        <td>학습 예정</td>                    </tr>
+                </tbody>
+            </table>
+        </body>
+        <hr>
+        <body>
+            <h2 id="contact">4. 문의하기</h2>
+            <form>
+                <table>
+                    <legend>이름</legend>
+                    <tr>
+                        <td><input type="text" name="name" value="이름을 입력하세요"></td>
+                    </tr>
+                </table><br>
+                <table>
+                    <legend>비밀번호</legend>
+                    <tr>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                </table><br>
+                <table>
+                    <legend>이메일</legend>
+                    <tr>
+                        <td><input type="email" name="email" value="example@email.com"></td>
+                    </tr>
+                </table><br>
+                <table>
+                    <legend>생년월일</legend>
+                    <tr>
+                        <td><input type="date" name="birthday"></td>
+                    </tr>
+                </table><br>
+                <table>
+                    <legend>학년</legend>
+                    <body>
+                        <select>
+                            <option>1학년</option>
+                            <option>2학년</option>
+                            <option>3학년</option>
+                            <option>4학년</option>
+                        </select>
+                    </body>
+                </table><br>
+                <table>
+                    <legend>관심 분야</legend>
+                    <tr>
+                        <td><input type="radio" name="interest"> 프론트엔드</td>
+                        <td><input type="radio" name="backend"> 백엔드</td>
+                        <td><input type="radio" name="ai"> AI</td>
+                    </tr>
+                </table><br>
+                <table>
+                    <legend>배우고 싶은 기술</legend>
+                    <tr>
+                        <td><input type="checkbox" name="HTML"> HTML</td>
+                        <td><input type="checkbox" name="CSS"> CSS</td>
+                        <td><input type="checkbox" name="JavaScript"> JavaScript</td>
+                    </tr>
+                </table><br>
+                <table>
+                    <legend>웹 프로그래밍 수준</legend>
+                    <body>
+                        <select>
+                            <option>초급</option>
+                            <option>중급</option>
+                            <option>고급</option>
+                        </select>
+                    </body>
+                </table><br>
+                <table>
+                    <legend>문의 내용</legend>
+                    <tr>
+                        <td><textarea>문의 내용을 입력하세요</textarea></td>
+                    </tr>  
+                </table><br>
+                <input type="button" value="제출"> <input type="button" value="초기화">
+            </form>
+        </body>
+    </main><br><hr>
+
+    <footer>
+        <h3>참고 사이트</h3>
+        <p>HTML에 대해 더 공부하고 싶다면 ?</p><hr>
+        <p>Copyright ⓒ 2026 Web Programming</p>
+        <p>HTML 종합 실습 페이지</p>
+    </footer>
+</html>
