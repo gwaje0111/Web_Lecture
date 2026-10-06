@@ -1,0 +1,53 @@
+.header{
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+
+.header h1{
+    float: left;
+}
+
+.header p{
+    float: right;
+}
+
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.item00{
+    float: left;
+    margin: 0 3px;
+    padding: 0px;
+}
+
+.item{
+    float: right;
+    margin: 0 3px;
+    padding: 10px;
+}
+
+.container{
+    border-bottom: 2px solid black;
+}
+
+hr{
+    border: 2px;
+    background-color: black;
+    height: 2px;
+}
+
+.today_news{
+    float: left;
+    width: 65%;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.popular{
+    float: right;
+    margin: 0 15px;
+    width: 30%;
+    border: 2px solid black;
+}
