@@ -30,6 +30,8 @@ body{
 
 .container{
     border-bottom: 2px solid black;
+    margin: 0 5px;
+    padding: 0 0 30% 0;
 }
 
 hr{

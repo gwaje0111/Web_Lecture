@@ -1,0 +1,114 @@
+body{
+    width: 1000px;
+    margin: 10px auto;
+}
+
+#main{
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(107, 156, 67);
+    color: white;
+    margin: 0 0;
+    padding: 10px 0 45px 0;
+}
+
+#main p{
+    margin: -15px 0;
+}
+
+.container{
+    overflow: hidden;
+}
+
+.item{
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    color: white;
+    border-right: 1px solid white;
+    background-color: rgb(35, 136, 35);
+    width: 19.9%;
+    height: 40px;
+    padding: 15px 0 0 0;
+}
+
+.intro{
+    float: left;
+    width: 65%;
+    height: 300px;
+    background-color: white;
+    padding: 15px 0 0 0;
+    margin: 5px;
+}
+
+.intro h2{
+    color: rgb(37, 155, 62);
+}
+
+.quick h3{
+    color: rgb(37, 155, 62);
+}
+
+.quick{
+    float: right;
+    width: 32%;
+    height: 300px;
+    background-color: rgb(230, 248, 151);
+    padding: 25px 0 0 15px;
+}
+
+.menu01{
+    overflow: hidden;
+    text-align: left;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 35%;
+    height: 20px;
+    padding: 6px 50px 6px 10px;
+    margin: 5px;
+}
+
+.menu02{
+    overflow: hidden;
+    text-align: left;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 35%;
+    height: 20px;
+    padding: 6px 50px 6px 10px;
+    margin: 5px;
+}
+
+.menu03{
+    overflow: hidden;
+    text-align: left;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 35%;
+    height: 20px;
+    padding: 6px 50px 6px 10px;
+    margin: 5px;
+}
+
+.menu04{
+    overflow: hidden;
+    text-align: left;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 35%;
+    height: 20px;
+    padding: 6px 50px 6px 10px;
+    margin: 5px;
+}
+
+.fin{
+    overflow: hidden;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
