@@ -1,0 +1,113 @@
+body{
+    width: 1000px;
+    margin: 10px auto;
+}
+
+#main{
+    overflow: hidden;
+    text-align: center;
+    background-color: rgb(207, 133, 64);
+    color: white;
+    margin: 0 0;
+    padding: 10px 0 50px 0;
+}
+
+#main p{
+    margin: -15px 0;
+}
+
+.container{
+    overflow: hidden;
+}
+
+.item{
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    color: white;
+    border-right: 1px solid white;
+    background-color: rgb(255, 200, 128);
+    width: 19.9%;
+    height: 40px;
+    padding: 15px 0 0 0;
+}
+
+.profile{
+    overflow: hidden;
+    float: left;
+    text-align: left;
+    background-color: rgb(255, 227, 165);
+    padding: 20px;
+    height: 350px;
+    width: 15.9%;
+}
+
+.profile h4{
+    color: rgb(182, 106, 19);
+}
+
+
+.project{
+    overflow: hidden;
+    float: left;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    background-color: white;
+    height: 350px;
+    width: 56%;
+}
+
+.project h2{
+    color: rgb(182, 106, 19);
+    margin: 15px 0 20px 0;
+}
+
+.pj01{
+    border: 2px solid rgb(255, 171, 93);
+    background-color: rgb(255, 225, 161);
+    padding: 0 0 0 15px;
+    color: black;
+}
+
+.pj01 h4{
+    margin: 20px 0 -10px 0;
+}
+
+.pj02{
+    border: 2px solid rgb(255, 171, 93);
+    background-color: rgb(255, 225, 161);
+    padding: 0 0 0 15px;
+    color: black;
+    margin: 20px 0 0 0;
+}
+
+.pj02 h4{
+    margin: 20px 0 -10px 0;
+}
+
+.skill{
+    overflow: hidden;
+    float: left;
+    text-align: left;
+    background-color: rgb(255, 227, 165);
+    padding: 20px 6px 20px 15px;
+    height: 350px;
+    width: 17.9%;
+}
+
+.skill h4{
+    color: rgb(182, 106, 19);
+}
+
+.skill p{
+    margin: 20px 0 -10px 0;
+}
+
+.fin{
+    overflow: hidden;
+    background-color: rgb(59, 17, 0);
+    color: white;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
